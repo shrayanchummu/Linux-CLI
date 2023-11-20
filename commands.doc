@@ -1,0 +1,23 @@
+FILE SYSTEM & BASIC COMMANDS
+pwd -> prints current working directory
+ls -> list the contents of the current directory
+cd name_of_folder -> change directory 
+cd .. -> go to parent directory
+mkdir name_of_folder -> make directory or create a new folder
+touch newfile.txt -> create an empty newfile
+cat file.txt -> reads the file
+cat >> oldfile.txt/newfile.txt (press enter and type contents) -> to add/concatinate contents to the file or create new file if it doesn't exist (press Ctrl+D to exit)
+cat newfile1.txt >> newfile2.txt -> appends newfile1 into newfile2
+mv file/directory directory(to) -> moves file/directory to specified directory
+mv file1 file2 directory(to) -> moves multiple files to specified directory
+cp oldfile.txt newfile.txt -> copies contentsof oldfileinto newfile
+rm file_name.txt -> removes that specific file
+rmdir / rm -d directory_name -> removes that specific directory if it is empty
+rm -r directory_name -> removes all the contents in that directory and also the directory
+rm *.txt -> removes all .txt files // PATTERN MATCHING
+rm file_name.* -> removes all files with that file_name // PATTERN MATCHING
+find . -name name.txt -> finds all name.txt files in the current working directory
+find . -name "*.txt" -> finds all .txt files in the current working directory (use "" for PATTERN MATCHING)
+find . -iname name.txt -> finds all name.txt (lowercase & uppercase) files in the current working directory
+find . -type d -name directory_name -> finds all directories with that directory_name
+
